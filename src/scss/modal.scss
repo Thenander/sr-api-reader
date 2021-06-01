@@ -1,0 +1,35 @@
+$border: #ffffff44;
+
+.modal {
+  color: #fff;
+  display: block;
+}
+
+.modal-content {
+  border: none;
+  box-shadow: inset 0px 0px 10px 0px #000;
+}
+
+.modal-header {
+  border-bottom: 1px solid $border;
+  align-items: flex-start;
+}
+
+.modal-footer {
+  border-top: 1px solid $border;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.now {
+  display: grid;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  color: #333333;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+}
